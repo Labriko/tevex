@@ -1,0 +1,159 @@
+.container {
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+	.container .b-1 {
+		background: url('../img/hr.png') no-repeat 0 44px;
+		height: 45px;
+	}
+
+		.b-1 h2 {
+			
+		}
+
+		.b-2 {
+			margin-top: 10px;
+		}
+
+
+.grey-hr {
+	margin-top: 55px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-menu {
+    background-color: #fff;
+    width: 485px;
+    margin-left: 45px;
+}
+
+	.main-menu > li {
+		padding-left: 7px;
+	}
+
+	.main-menu > li > div {
+		display: block;
+	    -moz-box-sizing: border-box; 
+	    -webkit-box-sizing: border-box;
+	    box-sizing: border-box;
+	    padding: 12px 10px 12px 25px;
+	    font-family: 'Arial Italic';
+	    font-size: 16px;
+	    color: #484848;
+/*	    background: url('../img/main-menu-background.png') no-repeat 5px 50%;*/
+	}
+
+	/*Все, кроме последнего уровня*/
+	.main-menu div {
+		background: url('../img/main-menu-background.png') no-repeat 5px 11px;
+		cursor: pointer;
+	}
+	.sub-sub-menu a {
+		background: none;
+	}
+
+	.main-menu > li.active {
+		/*background: url('../img/main-menu-act-background.png') no-repeat 0 -1px;*/
+		background-color: #f4f8ea;
+		/*border: 1px solid #d0d0d0;*/
+	}
+
+	/*Стрелка во всех активных li*/
+	.main-menu li.active > div:first-of-type {
+		background: url('../img/collapse.png') no-repeat 4px 11px;
+	}
+
+	.main-menu > li:not(:first-of-type) {
+		margin-top: 11px;
+	}
+
+	.sub-menu > li {
+		padding-left: 7px;
+	}
+	
+	.sub-menu > li.active {
+		background-color: #fff;
+	}
+
+	/*Второй уровень*/
+	.sub-menu > li > div {  
+		display: block;
+		/*height: 11px;*/
+	    font-family: 'Arial Italic';
+	    font-size: 16px;
+	    color: #484848;
+	    /*padding: 7px 10px 7px 25px;*/
+	    padding: 12px 10px 12px 25px;
+	}
+
+	.sub-menu {
+		padding-bottom: 20px;
+	}
+
+	.sub-menu > li {
+		width: 430px;
+		margin-left: 25px;
+	}
+
+	.sub-menu > li:not(:first-of-type) {
+		margin-top: 11px;
+	}
+
+	.sub-menu > li > ul > li > a:first-of-type {
+		padding-left: 40px;
+	}
+
+	.sub-sub-menu > li > a:first-of-type {
+		color: #83a43c;
+		font-family: 'Arial Italic';
+		font-size: 14px;
+		text-decoration: underline;
+		line-height: 20px;
+		background: url('../img/small-green-arrow.png') no-repeat 30px 50%;
+	}
+
+	.sub-sub-menu {
+		padding-bottom: 10px;
+	}
+
+	.sub-sub-menu > li > a:hover {
+		text-decoration: none;
+	}
+
+	.sub-sub-menu > li > a:last-of-type {
+		line-height: 24px;
+		padding-left: 8px;
+	}
+
+	.main-menu span.list {
+		font-size: 14px;
+		font-family: 'Arial Italic';
+	}
+
+	.main-menu a.sub-link {
+		background: none;
+		color: #83a43c;
+		text-decoration: underline;
+	}
+
+	.active {
+		border: 1px solid #e8e8e8;
+	}
+
+	.sub-sub-menu li > a {
+		
+		line-height: 24px;
+	}
+
+	.sub-sub-menu li > img {
+		
+		padding-top: 15px;
+	}

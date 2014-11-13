@@ -1,0 +1,79 @@
+.container {
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+	.container .b-1 {
+		background: url('../img/hr.png') no-repeat 0 39px;
+		height: 40px;
+	}
+
+		.b-1 h2 {
+			font-size: 20px;
+		}
+
+	.container .b-2 {
+		height: 490px;
+		margin-top: 15px;
+	}
+
+		.container .t-block {
+			width: 605px;
+			height: 120px;
+			font-size: 12px;
+			color: #484848;
+		    -moz-box-sizing: border-box; 
+		    -webkit-box-sizing: border-box;
+		    box-sizing: border-box;
+		    float: left;
+		    margin-top: 45px;
+		}
+
+		.container .t-block:nth-of-type(2n) {
+			margin-left: 40px;
+		}
+
+		.container .t-block:first-of-type,
+		.container .t-block:nth-of-type(2) {
+			margin-top: 0;
+		}
+
+			.t-block .t-img {
+				width: 152px;
+				height: 118px;
+				background: url('../img/t-img.png') no-repeat;
+				float: left;
+				margin-right: 10px;
+			}
+
+			.t-block .t-title {
+				font-size: 14px;
+			}
+
+			.t-block .t-description {
+				color: #6f6f6f;
+				font-size: 12px;
+				line-height: 15px;
+				min-height: 70px;
+				margin-top: 5px;
+			}
+
+			.t-block .t-footer {
+
+			}
+
+				.t-footer .order-button {
+				    width: 75px;
+				    height: 30px;
+				    background: url('../img/order-button-background.png') no-repeat;
+				    border: none;
+				    font-size: 11px;
+				    color: #fff;
+				}
+				
+				.t-footer .checkbox {
+					float: right;
+					margin-top: 5px;
+				}
