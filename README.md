@@ -26,6 +26,6 @@
 
 ![Страница каталога](screenshots/cataloguesp_2.png)
 
-### [Страница поиска](http://enrikolabriko.github.io/tevex/dev/code/make-up/search_result.html "Страница поиска")
+### [Страница поиска](http://enrikolabriko.github.io/tevex/dev/code/make-up/search-results.html "Страница поиска")
 
 ![Страница поиска](screenshots/search_result.png)
